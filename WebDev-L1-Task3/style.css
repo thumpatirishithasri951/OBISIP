@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: #e0f2fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+.converter {
+    max-width: 450px;
+    margin: auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.converter h1 {
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 10px;
+}
+
+.converter > p {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #334155;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #0284c7;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 7px;
+    background: #0284c7;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0369a1;
+    transform: translateY(-2px);
+}
+
+.clear-btn {
+    background: #64748b;
+    margin-top: 10px;
+}
+
+.clear-btn:hover {
+    background: #475569;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #f0f9ff;
+    color: #0369a1;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    color: #dc2626;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+@media (max-width: 500px) {
+    .converter {
+        padding: 25px;
+    }
+
+    .converter h1 {
+        font-size: 28px;
+    }
+}
