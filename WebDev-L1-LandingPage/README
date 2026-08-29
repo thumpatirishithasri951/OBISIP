@@ -1,0 +1,112 @@
+# OIBSIP Web Development & Designing
+## Level 1 - Task 1: Landing Page
+
+### Project Title
+NovaFlow - Productivity Landing Page
+
+### Objective
+Build a visually polished static landing page for a product, service, or
+brand using HTML5 and CSS3.
+
+This project demonstrates fundamental web development skills including
+page structure, layout, typography, navigation, responsive design, and
+visual styling.
+
+### Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- VS Code
+- Live Server
+
+### Features
+
+- Responsive navigation bar
+- Hero section with:
+  - Main headline
+  - Supporting description
+  - Call-to-action buttons
+- Features section
+- About section
+- Customer testimonial/review section
+- Footer with contact and social links
+- Responsive design for desktop, tablet, and mobile screens
+- CSS Grid and Flexbox layouts
+- Consistent colour palette and typography
+- Mobile navigation menu
+- Smooth scrolling between sections
+
+### Project Structure
+
+OIBSIP/
+└── WebDev-L1-LandingPage/
+    ├── index.html
+    ├── style.css
+    └── README.md
+
+### How to Run
+
+1. Open the project folder in Visual Studio Code.
+2. Open `index.html`.
+3. Right-click inside the HTML file.
+4. Select **Open with Live Server**.
+5. The landing page will open in your default web browser.
+
+### Project Sections
+
+#### 1. Navigation
+The navigation bar provides links to the main sections of the website:
+- Features
+- About
+- Reviews
+- Contact
+
+#### 2. Hero Section
+The hero section introduces NovaFlow with a main headline,
+description, and call-to-action buttons.
+
+#### 3. Features
+Three feature cards explain the main benefits of the fictional
+NovaFlow productivity platform.
+
+#### 4. About
+The About section explains the purpose of the project and the
+concept behind the NovaFlow brand.
+
+#### 5. Reviews
+A testimonial section demonstrates how customer feedback can be
+presented on a landing page.
+
+#### 6. Footer
+The footer contains the brand name, contact information, and
+social-link placeholders.
+
+### Responsive Design
+
+The website is designed to work on:
+- Desktop computers
+- Tablets
+- Mobile phones
+
+CSS media queries are used to adjust the layout for smaller screens.
+
+### OIBSIP Task Requirement
+
+This project is completed as:
+
+**Track:** Web Development & Designing  
+**Level:** Level 1  
+**Task:** Task 1 - Landing Page
+
+### Author
+
+Your Name
+
+### Internship
+
+Oasis Infobyte - Web Development & Designing Internship
+
+### License
+
+This project was created for educational and internship purposes.
